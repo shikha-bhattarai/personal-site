@@ -1,7 +1,7 @@
 var PORT = process.env.PORT || 80;
 var express = require('express');
 var app = express();
-var index = require('./views/index.js');
+var index = require('./routes/index.js');
 
 app.use('/*', index);
 
