@@ -1,0 +1,177 @@
+#nav-aside {
+  padding-top: 1em;
+  padding-bottom: 40px;
+  float: left;
+  width: 300px;
+  position: fixed;
+  overflow: scroll;
+  z-index: 1001;
+  background: #314456;
+  -webkit-transition: 0.5s;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#container-page {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+h1.main-title {
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+ul {
+  margin: 0px;
+  width: 100%;
+  position: relative;
+  padding: 27px 0px;
+}
+li {
+  list-style-type: none;
+  text-align: center;
+}
+a {
+  color: #57caa0;
+}
+/* Social Links */
+a.fa.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  padding: 7px;
+}
+img.fab {
+  width: 42px;
+}
+.page-nav-toggle {
+  position: fixed;
+  left: -5px;
+  top: 0px;
+  z-index: 9999;
+  cursor: pointer;
+  opacity: 1;
+  visibility: hidden;
+  padding: 20px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+img#img-main{
+  border-radius: 50%;
+  width: 100px;
+}
+
+a.navbar-brand{
+  font-family: 'Shadows Into Light', cursive;
+}
+a.navbar-brand{
+  font-family: 'Shadows Into Light', cursive;
+}
+img#main_logo {
+  padding: 0px;
+  width: 50px;
+}
+.footer{
+  background: #f8f9fa;
+  max-width: 100%;
+  padding: 20px;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+a.btn.btn-outline-secondary.sub-heading{
+  margin-left:1%;
+}
+.connection-header h3 {
+  color: #343a40;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+}
+a.connection-links {
+  color: #53606d;
+}
+img.connection-image {
+  width: 15%;
+  clear: both;
+  float: left;
+  padding: 10px;
+}
+a.login-name {
+  float: right;
+  font-size: 18px;
+  padding: 10px 100px 10px 10px;
+}
+a.footer-link {
+  color: #fff;
+  margin: 20px;
+}
+.row{
+  float:right;
+  color: #f8f9fa;
+}
+.footer {
+  background: #f8f9fa;
+  max-width: 100%;
+  padding: 20px;
+  min-height: 100px;;
+}
+.connection-wrapper {
+  min-height: 400px;
+}
+/* New Connection Page */
+form#contact-form {
+  width: 50%;
+  text-align: left;
+  margin: auto;
+}
+label{
+  width:100%
+}
+
+form.form-horizontal {
+  max-width: 500px;
+  margin: auto;
+  background: rgb(236, 236, 236);
+  padding: 14px;
+  margin-bottom: 20px;
+}
+
+button.btn.btn-default {
+  background: #343a40;
+  color: #fff;
+}
+
+.title{
+text-align: center;
+margin: 10px;
+}
+
+.row {
+  float: none;
+}
+.row.connection {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+h4.connection-title {
+  text-align: center;
+  color: #333;
+  padding: 20px;
+}
+img.connection-img {
+  width: 100px;
+  border: 1px solid #f3e9e9;
+  margin: auto;
+}
+.my-3.p-3.bg-light.rsvp {
+  margin: auto;
+}
+.click-rsvp {
+  text-align: center;
+}
