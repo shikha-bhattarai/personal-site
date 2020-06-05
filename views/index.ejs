@@ -3,11 +3,17 @@
 <head>
     <meta charset="utf-8">
     <title>Shikha Bhattarai</title>
-    <link rel="stylesheet" href="../assets/styles/bootstrap/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="../assets/styles/bootstrap/bootstrap.min.css"> -->
     <link rel="stylesheet" href="../assets/styles/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preload" href="assets/fonts/Roboto/Roboto-Black.ttf" as="font">
     <link rel="preload" href="/assets/styles/fontawesome/all.css" as="font">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../assets/styles/animate.js"></script>
+    <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"> -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 
 <body>
@@ -23,8 +29,8 @@
                     <div class="main-menu">
                         <ul>
                             <li class="active"><a href="#home" data-nav-section="home">Introduction</a></li>
-                            <li><a href="#Education" data-nav-section="timeline">Education</a></li>
-                            <li><a href="#Experience" data-nav-section="about">Experience</a></li>
+                            <li><a href="#Education" data-nav-section="Education">Education</a></li>
+                            <li><a href="#Experience" data-nav-section="Experience">Experience</a></li>
                             <li><a href="#Skills" data-nav-section="about">Hackathons</a></li>
                             <li><a href="javascript:void(0)" class="fa fa-linkedin"></a></li>
                             <li><a><img src="assets/images/Octocat.png" class="fab" /></a></i></li>
@@ -35,28 +41,160 @@
         </aside>
     </div>
     <div id="content">
+        <img src="../assets/images/sky.png" width="20%" />
+        <img src="../assets/images/sky.png" width="20%" style="float:right" />
         <div id="home">
             <div class="container intro">
-                <h1>Hello, My name is Shikha Bhattarai.</h1>
-                <h2>I am a full stack developer.</h2>
-                <p>Feel free to checkout my website and learn more about me.</p>
-            </div>
+                <h1>Hello, I am Shikha.</h1>
+                <h2>I am a web developer.</h2>
 
-            <div id="Education">
-                <div class="container education">
-                    <div>
-                        <h3>University of North Carolina at Charlotte (UNCC)</h3>
-                        <p>Master of Science in Information Technology</p>
-                        <p>Class of 2020</p>
-                    </div>
-                    <div>
-                            <h3>Northern Kentucky University (NKU)</h3>
-                            <p>Major in Computer Information Technology</p>
-                            <p>Minor in Computer Science</p>
+            </div>
+        </div>
+
+        <div id="Education">
+            <div class="container education">
+                <div class="container">
+                    <h1 class="heading">Education</h1>
+                    <div class="card">
+                        <span class="icon uncc">
+                            <!-- <i class="icon-bookmark icon-large"></i> -->
+                            <img src="../assets/images/UNCC.png" alt="UNCC" width="80%" />
+                        </span>
+                        <div class="education-info">
+                            <h3>University of North Carolina at Charlotte (UNCC)</h3>
+                            <div class="card-body">Master of Science in Information Technology, 2020</div>
+                            <div class="card-body">Graduated May, 2020</div>
                         </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card">
+                        <span class="icon nku">
+                            <img src="../assets/images/NKU.png" alt="NKU" width="80%" />
+                        </span>
+                        <div class="education-info">
+                            <h3>Northern Kentucky University</h3>
+                            <div class="card-body">Major in Computer Information Technology</div>
+                            <div class="card-body">Minor in Computer Science</div>
+                            <div class="card-body">Graduated May, 2016</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
                 </div>
             </div>
         </div>
+        <div id="Experience">
+            <div class="container education">
+                <h1 class="heading">Experience</h1>
+                <div class="timeline">
+
+                    <div class="entry">
+                        <div class="title">
+                            <h3>Feb, 2020 - May, 2020</h3>
+                            <p>Frontend Developer, CBDMD, Charlotte NC</p>
+                        </div>
+                        <div class="experience">
+                            <p> Tools and Technology: Docker, Magento, PHP, SASS, VALET.
+                            </p>
+                            <ul>
+                                <li class="exp">Designed, built, tested and implemented stand-alone modules for dynamic
+                                    web application
+                                    development on multiple web stores.</li>
+                                <li class="exp">Developed cross-browser and multi-browser compatible web pages using
+                                    HTML5, MySQL, CSS3, and
+                                    JavaScript.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="entry">
+                        <div class="title">
+                            <h3>Jan 2016 – Dec 2018</h3>
+                            <p>Application Developer, <br />Snow Commerce, OH</p>
+                        </div>
+                        <div class="experience">
+
+                            <ul>
+
+                                <li class="exp">Team lead for multiple projects and clients, managing a team of
+                                    developers to provide a rapid development cycle, setup deployment tools, migrate and
+                                    launch multiple websites on AWS and provide
+                                    daily updates to fulfill the unique requirements for each client.</li>
+                                <li class="exp">
+                                    Successfullymigratedproductsanddevelopedfront-endforsixmulti-language,multi-regioneCommerce
+                                    websites in seven months period.</li>
+                                <li class="exp">Launched international websites on different AWS availability zone.</li>
+                                <li class="exp">Developed ADA compliant front-end modules for in-house and third-party
+                                    clients.</li>
+                                <li class="exp">Led multiple Google platform development projects using Google Apps
+                                    APIs, Google Places, Google
+                                    CAPTCHA and Google Invisible Re-CAPTCHA and Google Maps.</li>
+                                <li class="exp">Designed the working process of Adobe scene7 and developed the
+                                    front-end. Previous version took 20 minutes to update and configure the product, the
+                                    new version takes less than a minute to add, configure and test customizable
+                                    product.</li>
+                                <li class="exp">Installed and configured Nginx, PHP, SSL, Let’s Encrypt SSL for several
+                                    staging and production websites.</li>
+                                <li class="exp">Managed and coordinated weekly deployment of application lifecycles oft
+                                    ware and provided mentorship,
+                                    guidance, and leadership to customer service and vendor management team.</li>
+                                <li class="exp">Incident management during a slow performance or site down and conducted
+                                    root cause analysis and
+                                    remediation.</li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="entry">
+                        <div class="title">
+                            <h3>Jan 2014 – Dec 2016</h3>
+                            <p>Web Developer, </br> Center for Applied Informatics. </br>NKU, Kentucky</p>
+                        </div>
+                        <div class="experience">
+                            <ul>
+                                <li class="exp">Implemented and maintained several content management systems such as WordPress, Joomla, and Drupal, including installing and configuring, developing frontend, customizing code, integrating plugins,
+                                        deploying revisions and updating the CMS version.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="entry">
+                        <div class="title">
+                            <h3>May 2012 – Aug 2012</h3>
+                            <p>Undergraduate Research,<br/>NKU, Kentucky <br/>Undergraduate Researcher in STEM</p>
+                        </div>
+                        <div class="experience">
+                            <ul>
+                                <li class="exp">Conducted NKU summer research 2012 in the topic “Performance Comparison of IEEE 802.11g and IEEE
+                                        802.11n Wireless Networks” funded by UR-STEM, NKU.</li>
+                                <li class="exp">Presented research in the poster presentation.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="entry">
+                            <div class="title">
+                                <h3>May 2012 – Aug 2012</h3>
+                                <p>Media Services<br/>NKU, Kentucky <br/>Video Editor</p>
+                            </div>
+                            <div class="experience">
+                                <ul>
+                                    <li class="exp">Recorded videos on-site and off campus for professors, university guests and various campus events like
+                                            sporting events and graduation.</li>
+                                    <li class="exp">Conceptualized and edited multiple audio and videos.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <img src="../assets/images/bottom3.png" alt="UNCC" width="100%" />
+        </div>
+    </div>
+
+
 </body>
 
 </html>
