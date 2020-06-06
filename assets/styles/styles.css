@@ -1,11 +1,11 @@
 body{
-  font-family: 'Roboto Mono', monospace!important;
+  font-family: 'Roboto', sans-serif!important;
 }
 p{
-  font-family: 'Roboto Mono', monospace!important;
+  font-family: 'Roboto', sans-serif!important;
 }
 h1,h2,h3,h4{
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto', sans-serif;;
 }
 #nav-aside {
   padding-top: 1em;
@@ -41,7 +41,9 @@ li {
   text-align: center;
 }
 a {
-  color: #efefef!important;
+  color: #fff!important;
+    font-weight: 300;
+    font-size: 1.2rem;
 }
 /* Social Links */
 a.fa.fa-linkedin {
@@ -75,20 +77,24 @@ img#img-main{
   width: 100px;
 }
 
+#container-page .bg-light {
+  background-color: #a2d4de!important;
+}
 /* Content */
 #content{
-  width: calc(100% - 300px);
+  /* width: calc(100% - 300px); */
+  width:100%;
   float: right;
   background: #EFEFEF;
   background-image:linear-gradient(#a2d4de,#a2d4de,#7bc1b8,#8fc7c1, #6e9ea0, #314455)
 }
 
 .container.intro {
-  margin-top: 60px;
   color: #314456;
   font-family: Roboto;
   text-align: center;
   transition: fadeIn .5s ease-in-out;
+  margin-top: 90px;
 }
 .container.education {
   margin-top: 200px;
@@ -113,7 +119,7 @@ img#img-main{
 
 
 .cards {
-  width: 100%;
+  width: 49%;
   padding: 10px;
   /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; */
   text-align: center;
@@ -250,7 +256,7 @@ p:first-child {
   left: 0;
   right: 0;
   width: 100px;
-  height: 50px;
+  height: 70px;
   display: table;
   margin: 0 auto;
   background: #3f8069;
@@ -260,7 +266,8 @@ p:first-child {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 50px 30px 50px;
+  /* border-width: 0 50px 30px 50px; */
+  border-width:0px 97px 0px 0px;
   position: absolute;
   position: absolute;
     left: 0;
@@ -312,8 +319,9 @@ h1.heading {
   padding: 0px;
   margin: 0px;
   text-align: center;
-  font-size: 1.7rem;
-  font-family: 'Roboto Mono', monospace;
+  font-size: 2.4rem;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 900;
 }
 li.exp {
   list-style-type: disc;
@@ -345,3 +353,83 @@ h2.index .left{
   font-family: 'Architects Daughter', cursive;
   float:left;
 }
+
+
+/* Animation */
+.animate {
+  height: 94px;
+}
+.animate-left {
+  animation: moveleft 2s;
+  position: relative;
+  float: left;
+  width:240px;
+  left:50px;
+}
+
+@keyframes moveleft {
+  from {left: 0px;}
+  to {left: 50px;}
+}
+
+.animate-right {
+  animation: moveright 2s;
+  position: relative;
+  float: right;
+  width:240px;
+  right:50px;
+}
+
+@keyframes moveright {
+  from {right: 0px;}
+  to {right: 50px;}
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .animate-right {
+    display:none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  .animate-right {
+    display:block;
+  }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .animate-right {
+    display:block;
+  }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .animate-right {
+    display:block;
+  }
+ } 
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .animate-right {
+    display:none;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .animate-right {
+    display:none;
+  }
+ }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
