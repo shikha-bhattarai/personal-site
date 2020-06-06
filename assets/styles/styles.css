@@ -1,3 +1,12 @@
+body{
+  font-family: 'Roboto Mono', monospace!important;
+}
+p{
+  font-family: 'Roboto Mono', monospace!important;
+}
+h1,h2,h3,h4{
+  font-family: 'Roboto Mono', monospace;
+}
 #nav-aside {
   padding-top: 1em;
   padding-bottom: 40px;
@@ -85,8 +94,16 @@ img#img-main{
   margin-top: 200px;
   color: #314456;
   font-family: Roboto;
+  /* height: 100vh; */
+}
+
+.container.hackathons {
+  margin-top: 200px;
+  color: #314456;
+  font-family: Roboto;
   height: 100vh;
 }
+
 
 .card {
   width: 100%;
@@ -96,6 +113,10 @@ img#img-main{
   height: 260px;
   margin-top:60px;
   transform: translate3d(0, 40px, 0);
+  -webkit-animation: fadeIn .5s ease-in-out;
+    -moz-transition: fadeIn .5s ease-in-out;
+    -o-transition: fadeIn .5s ease-in-out;
+    transition: fadeIn .5s ease-in-out;
 }
 
 .left {
@@ -275,4 +296,12 @@ li.exp {
   text-align: left;
   line-height: 1.2rem;
   padding-top: 5px;
+}
+h1.index{
+  font-size:1.8rem;
+  font-family: 'Architects Daughter', cursive;
+}
+h2.index{
+  font-size:2.8rem;
+  font-family: 'Architects Daughter', cursive;
 }
